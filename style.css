@@ -1,0 +1,366 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+@import url("https://fonts.googleapis.com/css?family=Metal+Mania");
+
+@font-face {
+    font-family: "Booter - Zero Zero";
+    src: url("Fonts/Booter - Zero Zero.woff") format("woff"),
+            url("Fonts/Booter - Zero Zero.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+.header{
+    background-image: url("images/cover2.jpg");
+    background-size: cover;
+    background-color: rgba(0,0,0,.6);
+    background-blend-mode: multiply;
+    padding-bottom: 70px;
+
+}
+*{
+    box-sizing:border-box;
+    font-family: Raleway;
+    color:#777;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+.nav ul{
+    margin:0 auto;
+}
+
+.nav li{
+    display: inline;
+    
+}
+.nav a{
+    display:inline-block;
+    padding: .75em 5%;
+    color: white;
+    text-decoration: none;
+    margin-right: 3%;
+}
+.nav a:hover{
+    background-color: rgba(255,255,255,.3)
+}
+.main-nav li{
+    padding: 1em;
+    
+}
+.main-nav{
+    text-align: center;
+    font-size: 1.1em;
+    padding: .5em 5%;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.685);
+}
+
+
+.band-name {
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family: "Booter - Zero Zero";
+    font-weight: lighter;
+    color: gold;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
+/* .band-name-footer{
+    float:left;
+    height: 3em;
+}
+ */
+.band-name-large{
+    margin-top: .3em;
+    font-size: 8rem;
+
+}
+.section-header{
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: normal;
+    font-family: "metal mania";
+    color: #333;
+}
+
+.content-section{
+    margin: 1em;
+   
+
+}
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.selena{
+    float: left;
+    margin: 2.5em;
+    border-radius: 40%;
+    
+}
+.footer{
+    background: #cc2b5e; /* fallback for old browsers */
+	background: -webkit-linear-gradient(
+		to right,
+		#44d89f,
+		#712f86
+	); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(
+		to right,
+		#44d89f,
+		#712f86
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	color: white;
+	padding: 0.25em 0;
+	margin-top: 20px;
+}
+.main-footer-container{
+    display: flex;
+    align-items: center;
+}
+.main-footer-container ul{
+    flex-grow: 1;
+    text-align: end;
+}
+.footer-nav a{
+    padding: .5em;
+}
+.btn{
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em;
+    cursor: pointer;
+}
+
+.btn-header{
+    display: block;
+    margin: 1.5em auto;
+    color: azure;
+    border: 2px solid purple;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 0%;
+    font-size: 1.2em;
+    font-weight: lighter;
+    padding-left: 1.8em;
+    padding-right: 1.8em;
+}
+.btn-header:hover{
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.btn-play{
+    display: block;
+    margin: 0 auto;
+    color: purple;
+    border-radius: 50%;
+    padding: 0;
+    width: 50px;
+    height: 50px;
+    
+}
+.tour-row{
+    border-bottom: 1px solid black;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+
+
+}
+
+.tour-row:last-child{
+    border-bottom: none;
+}
+
+.tour-item{
+    display:inline-block;
+    padding-right:.5em;
+
+}
+
+.tour-date{
+    font-weight: bold;
+    color: #555;
+    width: 11%;
+}
+
+.tour-city {
+    width: 24%;
+}
+
+.tour-arena {
+    width: 42%;
+}
+
+.tour-btn {
+    max-width: 19%;
+}
+
+.btn-primary{
+    color:white;
+    font-weight: bold;
+    border-radius: .3em;
+    border:none;
+    background-color: purple;
+}
+.btn-primary:hover{
+    background-color: rgba(128, 0, 128, 0.678);
+}
+
+.shop-item{
+    margin: 50px;
+}
+.shop-item-title{
+    display:block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.1em;
+    color:#333;
+    margin-bottom: 15px;
+}
+
+.shop-item-image{
+    width: 250px;
+}
+
+.shop-item-details{
+    display:flex;
+    align-items: center;
+    padding: 5px;
+
+}
+.shop-item-price{
+    flex-grow: 1;
+    color: #333;
+
+}
+
+.shop-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cart-header{
+    font-weight: bold;
+    font-size: 1.25em;
+    color: #333;
+    
+}
+
+.cart-column{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cart-row{
+    display: flex;
+}
+
+.cart-item{
+    width: 45%;
+}
+
+.cart-price{
+    width: 20%;
+    color: #333;
+    margin-left: .5em;
+    font-size: 1.2em;
+}
+
+.cart-quantity{
+    width:35%;
+}
+
+.cart-item-image{
+    height: 75px;
+    border-radius: 10px;
+}
+
+.cart-item-title{
+    color: #333;
+    margin-left: .5em;
+    font-size: 1.2em;
+
+}
+
+.btn-danger{
+    color: white;
+    background-color:#EB5757;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+
+}
+
+.btn-danger:hover{
+    background-color: #b84c4c;
+
+}
+
+.cart-quantity-input{
+    height: 34px;
+    width: 50px;
+    border: 1px solid purple;
+    border-radius: 5px;
+    background-color: #eee;
+    padding: 0;
+    text-align: center;
+    margin-right: 25px;
+    font-size: 1.2em;
+}
+
+.cart-total{
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 40px;
+}
+
+.cart-total-title{
+    font-weight: bold;
+    font-size: 1.5em;
+    color: black;
+    margin-right: 20px;
+}
+
+.cart-total-price{
+    font-size: 1.2em;
+    color: #333;
+
+}
+
+.btn-purchase{
+    display: block;
+    margin: 40px auto 80px auto;
+    font-size: 2em;
+
+}
+
+.cart-row:last-child{
+    border-bottom: 1px solid black;
+}
+
+.cart-row:last-child .cart-column{
+    border-bottom: 0;
+}
