@@ -1,0 +1,42 @@
+{
+    "music": [
+      {
+        "id": 1,
+        "name": "REVIVAL",
+        "price": 1499,
+        "imgName": "revival.png"
+      },
+      {
+        "id": 2,
+        "name": "FOR YOU",
+        "price": 1299,
+        "imgName": "for you.png"
+      },
+      {
+        "id": 3,
+        "name": "STAR DANCE",
+        "price": 1099,
+        "imgName": "star dance.png"
+      },
+      {
+        "id": 4,
+        "name": "KISS 'N' TELL",
+        "price": 899,
+        "imgName": "kiss and tell.png"
+      }
+    ],
+    "merch": [
+      {
+        "id": 5,
+        "name": "KEEP SLAYING",
+        "price": 499,
+        "imgName": "KILLEM.JPG"
+      },
+      {
+        "id": 6,
+        "name": "REVIVE YOURSELF",
+        "price": 399,
+        "imgName": "REV.jpg"
+      }
+    ]
+  }
